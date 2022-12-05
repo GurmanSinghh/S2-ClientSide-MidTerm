@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+.navigationbar {
+    overflow: hidden;
+    background-color: #212125;
+}
+
+    .navigationbar a {
+        float: left;
+        color: #cccccc;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .navigationbar a:hover {
+            background-color: #cccccc;
+            color: black;
+        }
+
+        .navigationbar a.currentpage {
+            background-color: #cccccc;
+            color: white;
+        }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+   
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.topimage {
+    
+    background-image: url("top image.png");
+    
+    height: 75%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.aboutmehalf {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+
+
+
+.aboutmediv:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background: #212125;
+}
+
+#copyright-text {
+    background: white;
+}
+
+.allpropertiestopimage {
+    background-image: url("All Properties Header.jpg");
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactustopimage {
+    background-image: url("Contact Us Banner.jpg");
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
